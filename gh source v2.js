@@ -95,7 +95,7 @@ const socket = io("http://windows93.net:8081", {
             if (data.msg == "how old are you") {
                 socket.send(he.decode("omg guys "+data.nick+" is a creep"))
             }
-            if (data.msg == "gh!kurt") {b
+            if (data.msg == "gh!kurt") {
                 socket.send(he.decode("just kurt"))
             }
             if (data.msg == "gh!miweoro") {
